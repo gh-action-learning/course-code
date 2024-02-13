@@ -8,7 +8,7 @@ jobs:
         run: |
           pwd
           ls -a
-          echo $GITGUB_SHA
+          echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
           echo $GITHUB_WORKSPACE
   display-wd-info-windows:
